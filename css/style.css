@@ -1,0 +1,256 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(../img/background.jpg);
+}
+
+#all{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#board{
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: darkred;
+	position: relative;
+	border: 2px solid yellow;
+	border-radius: 20px;
+}
+
+#numberZero{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	top: 240px;
+	left: 20px;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+}
+
+#numberOne{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	top: 180px;
+	left: 20px;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+}
+
+#numberTwo{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+	top: 180px;
+	left: 115px;
+}
+
+#numberThree{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+	top: 180px;
+	left: 210px;
+}
+
+#numberFour{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+	top: 120px;
+	left: 20px;
+
+}
+
+#numberFive{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+	top: 120px;
+	left: 115px;
+}
+
+#numberSix{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+	top: 120px;
+	left: 210px;
+}
+
+#numberSeven{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+	top: 60px;
+	left: 20px;
+
+}
+
+
+#numberEight{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+	top: 60px;
+	left: 115px;
+}
+
+#numberNine{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+	top: 60px;
+	left: 210px;
+}
+
+#Minus{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+	top: 120px;
+	left: 305px;
+}
+
+#Multiply{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	top: 240px;
+	left: 305px;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+}
+
+#dividedBy{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+	top: 180px;
+	left: 305px;
+}
+
+#Plus{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+	top: 60px;
+	left: 305px;
+}
+
+#Equal{
+	width: 75px;
+	height: 40px;
+	position: absolute;
+	top: 240px;
+	left: 210px;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+}
+
+#Point{     
+	width: 75px;     
+	height: 40px;     
+	position: absolute;     
+	top: 240px; 
+	left: 115px;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: Verdana;
+}
+
+#answerPart{
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 400px;
+	height: 75px;
+	background-color: black;
+	border: 2px solid yellow;
+	border-radius: 20px;
+	position: relative;
+}
+
+#Cancel{
+	background-color: darkred;
+	width: 75px;
+	height: 60px;
+	border-radius: 50px;
+	position: absolute;
+	top: 7px;
+	left: 20px;
+	font-size: 30px;
+	font-family: Verdana;
+	color: white;
+}
+
+#Screen{
+	width: 240px;
+	height: 60px;
+	border-radius: 50px;
+	position: absolute;
+	margin: 0 auto;
+	top: 7px;
+	left: 115px;
+	background-color: darkgreen;
+	font-size: 30px;
+	color: white;
+	padding-left: 20px;
+	line-height: 60px;
+	font-family: Verdana;
+}
+
+button:focus {
+	outline: 0;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+
+
+
+
